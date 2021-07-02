@@ -31,7 +31,16 @@ Loading Done Screen
 
 
 Main Form!
-![Screenshot (44)](https://user-images.githubusercontent.com/83477843/124200910-61bcbb00-da8b-11eb-957d-771b125248e4.png)
+![Screenshot (48)](https://user-images.githubusercontent.com/83477843/124212112-39d95180-daa3-11eb-9203-2c5083aa176f.png)
+
+
+Information Form
+![Screenshot (49)](https://user-images.githubusercontent.com/83477843/124212141-48c00400-daa3-11eb-845f-b3fc2a7ec819.png)
+
+
+A Form You Can Change To Whatever
+![Screenshot (50)](https://user-images.githubusercontent.com/83477843/124212167-57a6b680-daa3-11eb-897e-f8ba72cb47cd.png)
+
 
 
 Cheat Injection Form
