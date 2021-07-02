@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DarkSpyPaste;
 
 //----------------------------------------------------------------------------------------------------------//
 //Krypted Loader Is A Paste Of DarkSpy UI / Injection Code And HWID Code And DLL Code Pasted From Gamesense //
@@ -151,6 +152,22 @@ namespace gamesense
             {
                 //donothing
             }
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            Form6 myForm = new Form6();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            Form7 myForm = new Form7();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
         }
     }
 }

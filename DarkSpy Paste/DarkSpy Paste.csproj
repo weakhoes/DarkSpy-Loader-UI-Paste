@@ -68,6 +68,18 @@
     <Compile Include="Done!.Designer.cs">
       <DependentUpon>Done!.cs</DependentUpon>
     </Compile>
+    <Compile Include="JustAForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JustAForm.Designer.cs">
+      <DependentUpon>JustAForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Information Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information Form.Designer.cs">
+      <DependentUpon>Information Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loading Screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +109,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Done!.resx">
       <DependentUpon>Done!.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JustAForm.resx">
+      <DependentUpon>JustAForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information Form.resx">
+      <DependentUpon>Information Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading Screen.resx">
       <DependentUpon>Loading Screen.cs</DependentUpon>
