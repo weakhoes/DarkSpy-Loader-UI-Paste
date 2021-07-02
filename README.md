@@ -6,9 +6,10 @@ This Is An Open Source Project I Don't Care What You Do With This Source You Can
 Do Not Call Paste Your Own Unless You Add Major Changes                                                   //
 
 
-Changelog
+Changelog 7/1/2021
 -------------------------------------------------------------------------------------------------------------
-Added Loading Screen And Done Screen Removed Some Code That Wasn't Needed
+-Added Loading Screen And Done Screen 
+-Removed Some Code That Wasn't Needed
 
 ScreenShots
 -------------------------------------------------------------------------------------------------------------
