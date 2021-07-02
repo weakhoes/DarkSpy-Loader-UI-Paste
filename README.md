@@ -12,6 +12,10 @@ Changelog 7/1/2021
 
 -Removed Some Code That Wasn't Needed
 
+-Added An Information Form
+
+-Added A Form That You Can Change Into Whatever
+
 ScreenShots
 -------------------------------------------------------------------------------------------------------------
 Login Screen 
