@@ -62,6 +62,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Done!.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Done!.Designer.cs">
+      <DependentUpon>Done!.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading Screen.Designer.cs">
+      <DependentUpon>Loading Screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +95,12 @@
     <Compile Include="Misc\Injector.cs" />
     <Compile Include="Misc\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Done!.resx">
+      <DependentUpon>Done!.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading Screen.resx">
+      <DependentUpon>Loading Screen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main Form.resx">
       <DependentUpon>Main Form.cs</DependentUpon>
     </EmbeddedResource>

@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Net;
 using System.Windows.Forms;
+using DarkSpyPaste;
 
 //----------------------------------------------------------------------------------------------------------//
 //Krypted Loader Is A Paste Of DarkSpy UI / Injection Code And HWID Code And DLL Code Pasted From Gamesense //
@@ -74,10 +75,10 @@ namespace gamesense
         {
             if (UsernameBox.Text == "123" && PasswordBox.Text == "123")
             {
+                form4 myForm = new form4();
                 this.Hide();
-                var form1 = new Form2();
-                form1.Closed += (s, args) => this.Close();
-                form1.Show();
+                myForm.ShowDialog();
+                this.Close();
             }
             else
             {
