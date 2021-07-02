@@ -1,3 +1,5 @@
+Important
+------------------------------------------------------------------------------------------------------------
 This Is A Paste Of DarkSpy UI / Injection Code And HWID Code And DLL Code Pasted From SimpleLoader //
 Redesign And Code Additons By Krypto On FunDip#6446/Me                                                    //
 This Is An Open Source Project I Don't Care What You Do With This Source You Can Sell It Or Whatever      //
@@ -5,9 +7,11 @@ Do Not Call Paste Your Own Unless You Add Major Changes                         
 
 
 Changelog
-------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 Added Loading Screen And Done Screen Removed Some Code That Wasn't Needed
 
+ScreenShots
+-------------------------------------------------------------------------------------------------------------
 Login Screen 
 ![Screenshot (42)](https://user-images.githubusercontent.com/83477843/124200817-199d9880-da8b-11eb-8a35-59c1d1396603.png)
 
