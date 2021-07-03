@@ -1,4 +1,4 @@
-Important
+Important No More Updates Will Be Added To This Loader 
 ------------------------------------------------------------------------------------------------------------
 This Is A Paste Of DarkSpy UI // Injection Code And HWID Code And DLL Code Pasted From SimpleLoader //
 Redesign And Code Additons By Krypto On FunDip#6446/Me                                                    //
