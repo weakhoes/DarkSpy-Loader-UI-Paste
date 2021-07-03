@@ -4,14 +4,13 @@ Important No More Updates Will Be Added To This Loader
 
 - Injection Code And HWID Code And DLL Code Pasted From SimpleLoader 
 
-- Redesign And Code Additons By Krypto On FunDip#6446/Me                                                    //
+- Redesign And Code Additons By Krypto On FunDip#6446/Me                                                   
 
-- This Is An Open Source Project I Don't Care What You Do With This Source You Can Sell It Or Whatever      //
+- This Is An Open Source Project I Don't Care What You Do With This Source You Can Sell It Or Whatever     
 
-- Do Not Call Paste Your Own Unless You Add Major Changes                                                   //
+- Do Not Call Paste Your Own Unless You Add Major Changes                                          
 
-
-Changelog 7/1/2021
+Changelog 7/2/2021
 -------------------------------------------------------------------------------------------------------------
 -Added Loading Screen And Done Screen 
 
