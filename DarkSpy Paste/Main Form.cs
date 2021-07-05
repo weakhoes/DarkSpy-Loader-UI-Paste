@@ -21,14 +21,14 @@ namespace gamesense
     {
         string HWID;
         // Vars
-        string dll_link = "https://github.com/flowxrc/storage/raw/main/cheat.dll"; // Put Your DLL Link Here
-        string hwid_link = "https://github.com/flowxrc/storage/blob/main/hwid.txt"; // Put Your HWID Link Here 
+        string dll_link = "https://github.com/flowxrc/storage/raw/main/cheat.dll"; // Put Your DLL Link Here //Upload A DLL To Github Right Click The Download Button On It And Copy Link Address And Put It Into string dll_name link = 
+        string hwid_link = "https://github.com/flowxrc/storage/blob/main/hwid.txt"; // Go To Github Create A Text File And Copy And Paste Your HWID Into It And Then Upload It Click On RAW File And Copy The Link Address And Then Put It Into hwid_link =
         string dll_name = "svchost"; // Change DLL Name
         int time_to_wait = 2000; // How Long It Takes To Inject
 
-        // SETUP VAR
-        bool setted_up = false; // Измените на true если вы закончили настройку loader'a
-        // SETUP VAR
+        
+        bool setted_up = false; // Change To True If Your Done Confugring The Loader
+        
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -43,50 +43,50 @@ namespace gamesense
 
         private async void load_Click(object sender, EventArgs e)
         {
-            // Основа замка по hwidу была взята с GitHub SimpleLoader
+            //Injection Code
 
             WebClient wb = new WebClient();
             string access_list = wb.DownloadString(hwid_link);
             if (access_list.Contains(HWID))
             {
-                this.Hide();
+                this.Hide();                        //dll name
                 string mainpath = "C:\\Windows\\" + dll_name + ".dll";
                 wb.DownloadFile(dll_link, mainpath);
 
                 Process.Start("steam://rungameid/730");
                 await Task.Delay(time_to_wait);
                 Process csgo = Process.GetProcessesByName("csgo").FirstOrDefault();
-                Process[] csgo_array = Process.GetProcessesByName("csgo");
+                Process[] csgo_array = Process.GetProcessesByName("csgo"); //finds csgo 
                 if (csgo_array.Length != 0)
                 {
-                    // Инжект
+                    //Injection Succesful Message
                     injector.BasicInject.Inject(mainpath, "csgo");
                     Console.Read();
                     MessageBox.Show("Injected", "DarkSpy Paste", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     csgo.WaitForExit();
-                    // Delete cheat
+                    //Deletes Cheat
                     if (File.Exists(mainpath))
                     {
                         File.Delete(mainpath);
                     }
                     await Task.Delay(2000);
-                    Application.Exit();
+                    Application.Exit(); //Exits After Injection
                 }
                 else
                 {
                     MessageBox.Show("Error: CS:GO Process not found", "DarkSpy Paste", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Application.Exit();
+                    Application.Restart(); //Restarts If CSGO Process Isn't Found
                 }
             }
             else
-            {
+            {                    //If Your HWID Is Incorrect Then It Won't Let You Inject The Cheat
                 MessageBox.Show("Incorrect HWID", "DarkSpy Paste");
             }
         }
 
         private void exit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); //If User Presses Exit Code
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -95,11 +95,8 @@ namespace gamesense
         }
 
         private void setup_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var form3 = new Form3();
-            form3.Closed += (s, args) => this.Close();
-            form3.Show();
+        {   
+          
         }
 
         private void Form2_MouseDown(object sender, MouseEventArgs e)
@@ -110,9 +107,9 @@ namespace gamesense
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-
+                         
         private void timer1_Tick(object sender, EventArgs e)
-        {
+        {   //If It Finds Any Of These Application Names Running The Application Will Close Itself
             Process[] ida64 = Process.GetProcessesByName("ida64");
             Process[] ida32 = Process.GetProcessesByName("ida32");
             Process[] ollydbg = Process.GetProcessesByName("ollydbg");
@@ -142,7 +139,7 @@ namespace gamesense
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
-        {
+        {   //Exit Dialog
             DialogResult dialogResult = MessageBox.Show("Are You Sure you Want To Exit", "Krypted Loader", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.Yes)
             {

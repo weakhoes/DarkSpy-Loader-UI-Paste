@@ -103,6 +103,7 @@
             // 
             // PasswordBox
             // 
+            this.PasswordBox.Animated = true;
             this.PasswordBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.PasswordBox.BorderColor = System.Drawing.Color.Transparent;
             this.PasswordBox.BorderThickness = 0;
@@ -131,6 +132,7 @@
             // 
             // UsernameBox
             // 
+            this.UsernameBox.Animated = true;
             this.UsernameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.UsernameBox.BorderColor = System.Drawing.Color.Transparent;
             this.UsernameBox.BorderThickness = 0;

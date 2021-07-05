@@ -34,7 +34,7 @@ namespace gamesense
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Start();
+            timer1.Start();          //= '.' The Charactar In The Middle Is What The Password Box Letter Will Change Too
             PasswordBox.PasswordChar = '•';
 
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
@@ -50,7 +50,7 @@ namespace gamesense
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {
+        {   //If It Finds Any Of These Application Names Running The Application Will Close Itself
             Process[] ida64 = Process.GetProcessesByName("ida64");
             Process[] ida32 = Process.GetProcessesByName("ida32");
             Process[] ollydbg = Process.GetProcessesByName("ollydbg");
@@ -70,21 +70,23 @@ namespace gamesense
                 Application.Exit();
             }
         }
-
+                      
         private void guna2GradientButton1_Click(object sender, EventArgs e)
-        {
+        {                            //username = 123             //password = 123 //Change If You Want
             if (UsernameBox.Text == "123" && PasswordBox.Text == "123")
-            {
+            {                    //Login Succesful Message
+                MessageBox.Show("Succesfully Logged In!", "Krypted", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 form4 myForm = new form4();
                 this.Hide();
                 myForm.ShowDialog();
                 this.Close();
             }
             else
-            {
+            {                                                //Login Unsuccesful Message
                 DialogResult dialogResult = MessageBox.Show("Login Invalid...", "Krypted Loader", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                //Asks A Question You Can Change The .Retry And .Cancel To Whatever Buttons And Also Change The Question
                 if (dialogResult == DialogResult.Retry)
-            {
+            {       //Clears Username Box And Password Box
                     UsernameBox.Clear();
                     PasswordBox.Clear();
                 }
