@@ -1,4 +1,4 @@
-Important Notices And Announcements No More Updates Will Be Added To This Loader 
+Important Notices And Announcements No More Updates Will Be Added To This Paste
 ------------------------------------------------------------------------------------------------------------
 - This Is A Paste Of DarkSpy UI 
 
@@ -12,13 +12,19 @@ Important Notices And Announcements No More Updates Will Be Added To This Loader
 
 Changelog 7/2/2021
 -------------------------------------------------------------------------------------------------------------
--Added Loading Screen And Done Screen 
+Last Changelog
+-------------------------------------------------------------------------------------------------------------
+- Added Loading Screen And Done Screen 
 
--Removed Some Code That Wasn't Needed
+- Removed Some Code That Wasn't Needed
 
--Added An Information Form
+- Added An Information Form
 
--Added A Form That You Can Change Into Whatever
+- Added A Form That You Can Change Into Whatever
+
+- Removed More Code
+
+- Added //Guides In The .sln/csproj So You Know What To Do
 
 ScreenShots
 -------------------------------------------------------------------------------------------------------------
