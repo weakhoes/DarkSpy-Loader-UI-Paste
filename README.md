@@ -4,7 +4,7 @@ Important Notices And Announcements No More Updates Will Be Added To This Paste
 
 - Injection Code And HWID Code And DLL Code Pasted From SimpleLoader 
 
-- Redesign And Code Additons By Krypto On FunDip#6446/Me                                                   
+- Pasted UI And Code Additons By Krypto On FunDip#6446/Me                                                   
 
 - This Is An Open Source Project I Don't Care What You Do With This Source You Can Sell It Or Whatever     
 
