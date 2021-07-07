@@ -2,6 +2,10 @@ Important Notices And Announcements No More Updates Will Be Added To This Paste
 ------------------------------------------------------------------------------------------------------------
 - This Is A Paste Of DarkSpy UI 
 
+- Reminder This IS NOT MY LOADER DESIGN 
+
+- DESGIN WAS PASTED FROM DARKSPY LOADER
+
 - Injection Code And HWID Code And DLL Code Pasted From SimpleLoader 
 
 - Pasted UI And Code Additons By Krypto On FunDip#6446/Me                                                   
