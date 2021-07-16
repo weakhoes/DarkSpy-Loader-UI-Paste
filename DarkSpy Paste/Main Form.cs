@@ -43,20 +43,20 @@ namespace gamesense
 
         private async void load_Click(object sender, EventArgs e)
         {
-            //Injection Code
+            //Injection Code And Code To Read HWID List And Download DLL File
 
             WebClient wb = new WebClient();
             string access_list = wb.DownloadString(hwid_link);
             if (access_list.Contains(HWID))
             {
-                this.Hide();                        //dll name
+                this.Hide();                        
                 string mainpath = "C:\\Windows\\" + dll_name + ".dll";
                 wb.DownloadFile(dll_link, mainpath);
 
                 Process.Start("steam://rungameid/730");
                 await Task.Delay(time_to_wait);
                 Process csgo = Process.GetProcessesByName("csgo").FirstOrDefault();
-                Process[] csgo_array = Process.GetProcessesByName("csgo"); //finds csgo 
+                Process[] csgo_array = Process.GetProcessesByName("csgo"); // Finds CSGO To Inject Into It
                 if (csgo_array.Length != 0)
                 {
                     //Injection Succesful Message
@@ -73,20 +73,20 @@ namespace gamesense
                     Application.Exit(); //Exits After Injection
                 }
                 else
-                {
+                {  
+                    //If CSGO Isn't Found Message
                     MessageBox.Show("Error: CS:GO Process not found", "DarkSpy Paste", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Application.Restart(); //Restarts If CSGO Process Isn't Found
                 }
             }
             else
-            {                    //If Your HWID Is Incorrect Then It Won't Let You Inject The Cheat
+            {                    //If The HWID Is Incorrect
                 MessageBox.Show("Incorrect HWID", "DarkSpy Paste");
             }
         }
 
         private void exit_Click(object sender, EventArgs e)
         {
-            this.Close(); //If User Presses Exit Code
+            this.Close(); //Closes Application For Exit Button
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -109,7 +109,7 @@ namespace gamesense
         }
                          
         private void timer1_Tick(object sender, EventArgs e)
-        {   //If It Finds Any Of These Application Names Running The Application Will Close Itself
+        {   //If It Finds Any Of These Application Names Running, The Application Will Close Itself
             Process[] ida64 = Process.GetProcessesByName("ida64");
             Process[] ida32 = Process.GetProcessesByName("ida32");
             Process[] ollydbg = Process.GetProcessesByName("ollydbg");
