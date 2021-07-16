@@ -70,10 +70,18 @@ namespace gamesense
                 Application.Exit();
             }
         }
-                      
+         
+        //String Start
+        string usernameget = "UsernameBox.Text";
+        string passwordtext = "123"; // Change Password If You Want
+        //String End
+        
+        //Suggestion If You Also Want To Add A Username They Have To Enter Then Copy And Paste The Code Below And Put It Behind PasswordBox.Text == "123"
+        //UsernameBox.Text == "123" &&
+       
         private void guna2GradientButton1_Click(object sender, EventArgs e)
-        {                            //username = 123             //password = 123 //Change If You Want
-            if (UsernameBox.Text == "123" && PasswordBox.Text == "123")
+        {                            
+            if (PasswordBox.Text == passwordtext)
             {                    //Login Succesful Message
                 MessageBox.Show("Succesfully Logged In!", "Krypted", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 form4 myForm = new form4();
