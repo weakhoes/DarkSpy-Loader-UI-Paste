@@ -1,5 +1,9 @@
-Important Notices And Announcements No More Updates Will Be Added To This Paste
+Important Notices And Announcements
 ------------------------------------------------------------------------------------------------------------
+- NO MORE UPDATES WILL BE ADDED FEEL FREE TO COMMIT AND UPDATE THIS PROJECT!
+
+- As I Said Don't Expect Anymore Updates
+
 - This Is A Paste Of DarkSpy UI 
 
 - Reminder This IS NOT MY LOADER DESIGN 
