@@ -53,11 +53,6 @@ namespace gamesense
             }
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
- 
-        }
-
         private void guna2ImageButton1_Click_1(object sender, EventArgs e)
         {
             Form2 myForm = new Form2();
@@ -77,11 +72,6 @@ namespace gamesense
             {
                 //donothing
             }
-        }
-
-        private void guna2GradientButton2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
