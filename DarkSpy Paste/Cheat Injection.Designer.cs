@@ -90,7 +90,6 @@
             this.guna2ImageButton1.Location = new System.Drawing.Point(310, 4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.ShadowDecoration.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.Size = new System.Drawing.Size(42, 24);
             this.guna2ImageButton1.TabIndex = 9;
