@@ -1,22 +1,10 @@
 Important Notices And Announcements
 ------------------------------------------------------------------------------------------------------------
-- NO MORE UPDATES WILL BE ADDED FEEL FREE TO COMMIT AND UPDATE THIS PROJECT!
+-No More Additions Will Be Added To This Project
 
-- As I Said Don't Expect Anymore Updates
+-Note This Was The Old Darkspy Loader Remade From This Was My 2nd Ever Project In C# So The Code Might Be Messy
 
-- This Is A Paste Of DarkSpy UI 
-
-- Reminder This IS NOT MY LOADER DESIGN 
-
-- DESGIN WAS PASTED FROM DARKSPY LOADER
-
-- Injection Code And HWID Code And DLL Code Pasted From SimpleLoader 
-
-- Pasted UI And Code Additons By Krypto On FunDip#6446/Me                                                   
-
-- This Is An Open Source Project I Don't Care What You Do With This Source You Can Sell It Or Whatever     
-
-- Do Not Call Paste Your Own Unless You Add Major Changes                                          
+-Will Not Be Planning On Remaking The New Darkspy Loader 
 
 Changelog 7/2/2021
 -------------------------------------------------------------------------------------------------------------
