@@ -1,10 +1,10 @@
 Important Notices And Announcements
 ------------------------------------------------------------------------------------------------------------
--No More Additions Will Be Added To This Project
+- No More Additions Will Be Added To This Project
 
--Note This Was The Old Darkspy Loader Remade From This Was My 2nd Ever Project In C# So The Code Might Be Messy
+- Note This Was The Old Darkspy Loader Remade From This Was My 2nd Ever Project In C# So The Code Might Be Messy
 
--Will Not Be Planning On Remaking The New Darkspy Loader 
+- Will Not Be Planning On Remaking The New Darkspy Loader 
 
 -------------------------------------------------------------------------------------------------------------
 Last Changelog 7/2/2021
